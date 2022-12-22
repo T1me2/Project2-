@@ -1,4 +1,4 @@
-# Project2-
+# Project 2 - ETL
 
 ## Project Proposal
 
