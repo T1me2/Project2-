@@ -1,4 +1,4 @@
-# Project2-
+# Project 2 - ETL
 
 ## Project Proposal
 
@@ -19,3 +19,6 @@ We plan to load the data into a relational database to perform our final analysi
 ## Transform
 
 ## Load
+
+![Entity Relationship Diagram](https://raw.githubusercontent.com/T1me2/Project2-/main/database/ERD.png)
+
