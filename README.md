@@ -26,7 +26,7 @@ Built a lookup table to associate a numeric ID to our tickers.
 
 **Twitter Data**
 
-The data returned from our Twitter API call returned all of Elon's tweets. To answer the questions we were asking, we had to populate columns with boolean values for whether or not Elon mentioned either Twitter or Tesla on a given date. That included first parsing the tweets to see if they included Twitter or Tesla, which we saved to lists. Then once we had these values, we parsed the multi-date entries to a single date with boolean values associated with mentions of Twitter or Tesla. We then saved this to a dataframe
+The data returned from our Twitter API call returned all of Elon's tweets. To answer the questions we were asking, we had to populate columns with boolean values for whether or not Elon mentioned either Twitter or Tesla on a given date. That included first parsing the tweets to see if they included Twitter or Tesla, which we saved to lists. Then once we had these values, we parsed the multi-date entries to a single date with boolean values associated with mentions of Twitter or Tesla. We then saved this to a dataframe.
 
 **Quandl Data**
 
@@ -36,5 +36,5 @@ The data returned from our Quandl API call returned as two separate dataframes, 
 
 ![Entity Relationship Diagram](https://raw.githubusercontent.com/T1me2/Project2-/main/database/ERD.png)
 
-To load our data, we read in our .csv files (some steps mentioned above happened after this point). We used SQLAlchemy & Pandas to connect to our database and push our data using Python directly. Example Queries were included
+To load our data, we read in our .csv files (some steps mentioned above happened after this point). We used SQLAlchemy & Pandas to connect to our database and push our data using Python directly. Example Queries are included in the repo.
 
