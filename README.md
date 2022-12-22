@@ -4,7 +4,7 @@
 
 Do Elon tweets have an impact on his associated corporations share price? 
 
-We plan to use the Twitter API to look at Elon Musk’s tweets for mentions of Tesla or Twitter. We will also pull aggregate trading data from Quandl Finance API and match to twitter data to analyze the impact of Elon tweets & aggregate tweet volume on his companies’ stock price, trading volume, and any other financial data of interest.
+We plan to use the Twitter API to look at Elon Musk’s tweets for mentions of Tesla or Twitter. We will also pull aggregate trading data from the Quandl Finance API and match to twitter data to analyze the impact of Elon tweets & aggregate tweet volume on his companies’ stock price, trading volume, and any other financial data of interest.
 
 We plan to load the data into a relational database to perform our final analysis.
 
